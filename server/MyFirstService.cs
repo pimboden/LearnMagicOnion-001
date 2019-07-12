@@ -1,8 +1,9 @@
 using System.Threading.Tasks;
 using MagicOnion;
 using MagicOnion.Server;
+using TheServer.Interfaces;
 
-namespace TheServer
+namespace TheServer.Server
 {
     public class MyFirstService : ServiceBase<IMyFirstService>, IMyFirstService
     {
